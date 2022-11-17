@@ -1,20 +1,14 @@
 import React, {useState, useEffect, useRef} from 'react';
 import {
   SafeAreaView,
-  Platform,
   View,
   Image,
   Text,
-  TextInput,
   BackHandler,
-  ToastAndroid,
-  Alert,
-  TouchableOpacity,
   ScrollView,
   ActivityIndicator,
 } from 'react-native';
 import {t} from 'react-native-tailwindcss';
-import Post from '../components/Post';
 import Icon from 'react-native-vector-icons/Feather';
 import {connect} from 'react-redux';
 import {useNavigation} from '@react-navigation/native';
